@@ -1,0 +1,84 @@
+body {
+    font-family: Georgia;
+    font-size: 12px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0.2em;
+}
+
+header {
+    border-bottom: solid black 5px;
+}
+
+footer {
+    border-top: solid black 5px;
+}
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.main {
+    padding: 1em 0;
+}
+
+.header-img {
+    height: 188px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post {
+    float: left;
+    padding: 0 6px 1em;
+}
+
+.post:hover .thumbnail {
+    border: solid 5px black;
+    margin: -5px -5px -20px;
+    border-bottom: solid 20px black;
+}
+
+.post:hover h2 {
+    color: white;
+}
+
+.thumbnail {
+    height: 188px;
+}
+
+.thumbnail img {
+    width: 188px;
+}
+
+footer {
+    clear: both;
+    padding-bottom: 1em;
+}
+
+pre {
+    font-family: Georgia;
+    font-size: 12px;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
